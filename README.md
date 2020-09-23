@@ -3,6 +3,8 @@ This is a DLL designed to split Sharepoint calendar recurrance events and to fil
 
 Usage:
 
+Install the 
+
 EventSplitter obj = new EventSplitter();
 var x = obj.Execute(Site, ListName, Username, Password, Convert.ToInt32(Hour));
 Out_dataTable = x.Item3;
